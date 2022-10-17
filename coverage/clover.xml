@@ -1,22 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1666040766672" clover="3.2.0">
-  <project timestamp="1666040766672" name="All files">
-    <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="8" coveredelements="4" complexity="0" loc="7" ncloc="7" packages="1" files="3" classes="3"/>
-    <file name="App.tsx" path="/home/dougalmeida/react-projects/elo7-landing-page/src/App.tsx">
+<coverage generated="1666050013732" clover="3.2.0">
+  <project timestamp="1666050013732" name="All files">
+    <metrics statements="12" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1" elements="14" coveredelements="4" complexity="0" loc="12" ncloc="12" packages="2" files="4" classes="4"/>
+    <package name="src">
+      <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="App.tsx" path="/home/dougalmeida/react-projects/elo7-landing-page/src/App.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="main.tsx" path="/home/dougalmeida/react-projects/elo7-landing-page/src/main.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="vite-env.d.ts" path="/home/dougalmeida/react-projects/elo7-landing-page/src/vite-env.d.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.Header">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-    </file>
-    <file name="main.tsx" path="/home/dougalmeida/react-projects/elo7-landing-page/src/main.tsx">
-      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <line num="1" count="0" type="stmt"/>
-      <line num="2" count="0" type="stmt"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="5" count="0" type="stmt"/>
-    </file>
-    <file name="vite-env.d.ts" path="/home/dougalmeida/react-projects/elo7-landing-page/src/vite-env.d.ts">
-      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-    </file>
+      <file name="index.tsx" path="/home/dougalmeida/react-projects/elo7-landing-page/src/components/Header/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
