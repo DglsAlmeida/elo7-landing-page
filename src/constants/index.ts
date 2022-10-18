@@ -14,11 +14,11 @@ export default Object.freeze({
   },
   COMPANY_VALUES: {
     qualityOfLife: {
-      title: "AMBIENTE DESCONTRAÍDO",
+      title: "QUALIDADE DE VIDA",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Quisque utefficitur ex, at malesuada ligula, Pellentesque odio ipsum, viverraaeros sit amet, fringilla sagittis augue, Fusque risus tellus,tempusquis lacinia in, vehicula ut turpis.",
     },
     relaxedAtmosphere: {
-      title: "QUALIDADE DE VIDA",
+      title: "AMBIENTE DESCONTRAÍDO",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Quisque utefficitur ex, at malesuada ligula, Pellentesque odio ipsum, viverraaeros sit amet, fringilla sagittis augue, Fusque risus tellus,tempusquis lacinia in, vehicula ut turpis.",
     },
     extraActivities: {

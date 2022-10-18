@@ -1,13 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import employeesImgsMock from "../../mocks/employeesImgsMock";
 import styles from "./carousel.module.scss";
-
-const employeeImgs = {
-  camila: "/images/camila.png",
-  guto: "/images/guto.png",
-  david: "/images/david.png",
-  beatriz: "/images/beatriz.png",
-};
 
 export const Carousel = () => {
   const carouselRef = useRef<any>();
@@ -36,7 +30,7 @@ export const Carousel = () => {
           drag="x"
           dragConstraints={{ right: 0, left: -currentWidth }}
         >
-          {Object.entries(employeeImgs).map(([key, value]) => (
+          {Object.entries(employeesImgsMock).map(([key, value]) => (
             <motion.div key={key} className={styles?.item}>
               <img
                 data-testid="Employee Image"
