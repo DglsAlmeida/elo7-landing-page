@@ -1,4 +1,5 @@
 import constants from "../../constants";
+import { Link } from "../Link";
 import styles from "./header.module.scss";
 
 export const Header = () => {
@@ -13,7 +14,7 @@ export const Header = () => {
 
       <div className={styles?.headerContent}>
         <p>{HEADER.paragrahp}</p>
-        <a href="#">{HEADER.openPositions}</a>
+        <Link href="#" text={HEADER.openPositions} withSeparator />
       </div>
     </header>
   );
