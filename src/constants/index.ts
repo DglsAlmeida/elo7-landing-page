@@ -3,7 +3,7 @@ export default Object.freeze({
     title: "Trabalhe no elo7",
     paragrahp:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Quisque utefficitur ex, at malesuada ligula, Pellentesque odio ipsum, viverra aeros sit amet, fringilla sagittis augue, Fusque risus tellus, tempusquis lacinia in, vehicula ut turpis.",
-    openPositions: "VAGAS ABERTAS",
+    openPositions: "VAGAS EM ABERTO",
   },
   COMPANY_SUMMARY: {
     title: "PALAVRA DO CEO",
@@ -11,5 +11,20 @@ export default Object.freeze({
     paragrahp:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Quisque utefficitur ex, at malesuada ligula, Pellentesque odio ipsum, viverra aeros sit amet, fringilla sagittis augue, Fusque risus tellus, tempusquis lacinia in, vehicula ut turpis.",
     subtitle: "CONHEÇA NOSSO TIME FORA DE SÉRIE",
+  },
+  COMPANY_VALUES: {
+    qualityOfLife: {
+      title: "AMBIENTE DESCONTRAÍDO",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Quisque utefficitur ex, at malesuada ligula, Pellentesque odio ipsum, viverraaeros sit amet, fringilla sagittis augue, Fusque risus tellus,tempusquis lacinia in, vehicula ut turpis.",
+    },
+    relaxedAtmosphere: {
+      title: "QUALIDADE DE VIDA",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Quisque utefficitur ex, at malesuada ligula, Pellentesque odio ipsum, viverraaeros sit amet, fringilla sagittis augue, Fusque risus tellus,tempusquis lacinia in, vehicula ut turpis.",
+    },
+    extraActivities: {
+      title: "ATIVIDADES EXTRAS",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Quisque utefficitur ex, at malesuada ligula, Pellentesque odio ipsum, viverraaeros sit amet, fringilla sagittis augue, Fusque risus tellus,tempusquis lacinia in, vehicula ut turpis.",
+    },
+    link: "SAIBA MAIS",
   },
 });
