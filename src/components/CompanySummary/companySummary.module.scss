@@ -1,0 +1,51 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 0.625rem 1.25rem;
+  background: var(--white-smoke);
+
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      margin: 0.625rem 0;
+    }
+
+    .ceoWords {
+      font-weight: bold;
+      color: var(--gray-darkest);
+    }
+
+    .ceoName {
+      font-size: 0.875rem;
+      color: var(--yellow-base);
+      font-weight: bold;
+    }
+
+    p {
+      margin-top: 0.625rem;
+      font-size: 0.875rem;
+    }
+  }
+
+  .employeesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.25rem;
+
+    h3 {
+      color: var(--gray-darkest);
+      font-size: 0.875rem;
+      margin-bottom: 0.938rem;
+    }
+  }
+}

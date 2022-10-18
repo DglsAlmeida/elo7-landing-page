@@ -13,7 +13,7 @@ export const Header = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, Quisque ut
           efficitur ex, at malesuada ligula, Pellentesque odio ipsum, viverra a
           eros sit amet, fringilla sagittis augue, Fusque risus tellus, tempus
-          quis lacinia in, vehicula ut turpis
+          quis lacinia in, vehicula ut turpis.
         </p>
         <a href="#">VAGAS EM ABERTO</a>
       </div>
