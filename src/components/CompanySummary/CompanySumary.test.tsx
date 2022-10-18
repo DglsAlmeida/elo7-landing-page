@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { CompanySummary } from ".";
 
-describe("<CompanySumary.test />", () => {
+describe("<CompanySumary />", () => {
   it("should render the CompanySumary component correctly", () => {
     render(<CompanySummary />);
 
