@@ -42,3 +42,7 @@ Para rodas os testes, rode o seguinte comando:
   # cd elo7-landing-page
   # yarn
 ```
+
+## Deply na Vercel
+
+https://elo7-landing-page.vercel.app/
