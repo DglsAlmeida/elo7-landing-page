@@ -8,6 +8,11 @@
     filter: brightness(0.8);
   }
 
+  svg {
+    margin-bottom: -1.5px;
+    margin-left: 3px;
+  }
+
   @media only screen and (min-width: 480px) {
     font-size: 1.125rem;
   }

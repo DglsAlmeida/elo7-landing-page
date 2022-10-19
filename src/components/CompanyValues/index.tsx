@@ -22,7 +22,7 @@ export const CompanyValues = () => {
           )
         )}
       </div>
-      <Link href="#" text={COMPANY_VALUES.link} withSeparator />
+      <Link href="#" text={COMPANY_VALUES.link} withSeparator withArrow />
     </main>
   );
 };

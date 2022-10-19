@@ -14,7 +14,7 @@ export const Header = () => {
 
       <div className={styles?.headerContent}>
         <p>{HEADER.paragrahp}</p>
-        <Link href="#" text={HEADER.openPositions} withSeparator />
+        <Link href="#" text={HEADER.openPositions} withSeparator withArrow />
       </div>
     </header>
   );
