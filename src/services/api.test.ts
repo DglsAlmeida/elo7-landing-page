@@ -1,4 +1,5 @@
 import constants from "../constants";
+import apiResponseMock from "../mocks/apiResponse.mock";
 import { api } from "./api";
 import { getOpenPositions } from "./getOpenPositions";
 
@@ -6,34 +7,9 @@ const { API } = constants;
 
 describe("getOpenPositions", () => {
   it("when API call is successful", async () => {
-    const responseData = {
-      vagas: [
-        {
-          cargo: "Desenvolvedor Mobile Senior (Android e iOS)",
-          ativa: true,
-          link: "http://elo7.dev/vaga/desenvolvedor-mobile-senior",
-          localizacao: {
-            bairro: "Vila Olímpia",
-            cidade: "São Paulo",
-            pais: "Brasil",
-          },
-        },
-        {
-          cargo: "Desenvolvedor Mobile Junior (Android)",
-          ativa: false,
-          link: "http://elo7.dev/vaga/desenvolvedor-mobile-junior",
-          localizacao: {
-            bairro: "Vila Olímpia",
-            cidade: "São Paulo",
-            pais: "Brasil",
-          },
-        },
-      ],
-    };
-
     const mockedApi = jest.spyOn(api, "get").mockResolvedValueOnce({
       data: {
-        ...responseData,
+        ...apiResponseMock,
       },
     } as any);
 
@@ -41,7 +17,7 @@ describe("getOpenPositions", () => {
 
     expect(mockedApi).toHaveBeenCalledTimes(1);
     expect(mockedApi).toHaveBeenCalledWith(API.baseUrl);
-    expect(result).toEqual(responseData);
+    expect(result).toEqual(apiResponseMock);
   });
 
   it("should return undefined", async () => {
