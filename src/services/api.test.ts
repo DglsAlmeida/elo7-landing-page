@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import constants from "../constants";
-import apiResponseMock from "../mocks/apiResponse.mock";
+import apiResponseMock from "../mocks/apiResponseMock";
 import { api } from "./api";
 import { getOpenPositions } from "./getOpenPositions";
 

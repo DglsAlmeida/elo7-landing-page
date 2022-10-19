@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import employeesImgsMock from "../../mocks/employeesImgsMock";

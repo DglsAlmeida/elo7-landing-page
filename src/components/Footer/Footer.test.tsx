@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { Footer } from ".";
-import apiResponseMock from "../../mocks/apiResponse.mock";
+import apiResponseMock from "../../mocks/apiResponseMock";
 import { api } from "../../services/api";
 
 describe("<Footer />", () => {
