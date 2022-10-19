@@ -8,13 +8,13 @@ import styles from "./home.module.scss";
 
 export const Home = () => {
   return (
-    <div className={styles?.homeContainer}>
+    <main className={styles?.homeContainer}>
       <Header />
       <CompanySummary />
       <CompanyValues />
       <Banner />
       <Footer />
       <BackToTopButton />
-    </div>
+    </main>
   );
 };

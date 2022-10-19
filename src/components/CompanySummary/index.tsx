@@ -9,7 +9,7 @@ export const CompanySummary = () => {
   const { isMobile } = useResponsive();
 
   return (
-    <main className={styles?.mainContainer}>
+    <section className={styles?.mainContainer}>
       <div className={styles?.mainContent}>
         <div className={styles?.mainContentTitle}>
           <span className={styles?.ceoWords}>{COMPANY_SUMMARY.title}</span>
@@ -37,6 +37,6 @@ export const CompanySummary = () => {
           </div>
         )}
       </div>
-    </main>
+    </section>
   );
 };

@@ -8,7 +8,7 @@ export const CompanyValues = () => {
   const { COMPANY_VALUES } = constants;
 
   return (
-    <main className={styles?.mainContainer}>
+    <section className={styles?.mainContainer}>
       <div className={styles?.companyValuesContent}>
         {Object.values(companyValuesMock).map(
           ({ id, src, text, title, alt }) => (
@@ -23,6 +23,6 @@ export const CompanyValues = () => {
         )}
       </div>
       <Link href="#" text={COMPANY_VALUES.link} withSeparator withArrow />
-    </main>
+    </section>
   );
 };
