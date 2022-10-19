@@ -8,10 +8,12 @@ export const CompanySummary = () => {
   return (
     <main className={styles?.mainContainer}>
       <div className={styles?.mainContent}>
-        <span className={styles?.ceoWords}>{COMPANY_SUMMARY.title}</span>
-        <span className={styles?.ceoName}>{COMPANY_SUMMARY.ceoName}</span>
+        <div className={styles?.mainContentTitle}>
+          <span className={styles?.ceoWords}>{COMPANY_SUMMARY.title}</span>
+          <span className={styles?.ceoName}>{COMPANY_SUMMARY.ceoName}</span>
+          <p>{COMPANY_SUMMARY.paragrahp}</p>
+        </div>
         <img src="/images/placeholder-video.png" alt="CEO's words" />
-        <p>{COMPANY_SUMMARY.paragrahp}</p>
       </div>
 
       <div className={styles?.employeesContainer}>

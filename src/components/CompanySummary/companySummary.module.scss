@@ -1,5 +1,7 @@
 .mainContainer {
   display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -15,8 +17,23 @@
 
     img {
       max-width: 100%;
+      flex: 1;
       margin: 0.625rem 0;
     }
+
+    @media only screen and (min-width: 480px) {
+      width: 100%;
+      flex-direction: row-reverse;
+      justify-content: left;
+      align-items: initial;
+      padding: 2.5rem 1.25rem;
+    }
+  }
+
+  .mainContentTitle {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 
     .ceoWords {
       font-weight: bold;
@@ -33,6 +50,17 @@
       margin-top: 0.625rem;
       font-size: 0.875rem;
     }
+
+    @media only screen and (min-width: 480px) {
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+
+      .ceoWords,
+      .ceoName {
+        font-size: 1.125rem;
+      }
+    }
   }
 
   .employeesContainer {
@@ -46,6 +74,12 @@
       color: var(--gray-darkest);
       font-size: 0.875rem;
       margin-bottom: 0.938rem;
+    }
+
+    @media only screen and (min-width: 480px) {
+      h3 {
+        font-size: 1rem;
+      }
     }
   }
 }
