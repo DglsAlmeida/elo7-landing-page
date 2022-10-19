@@ -1,3 +1,4 @@
+import { BackToTopButton } from "./components/BackToTopButton";
 import { Banner } from "./components/Banner";
 import { CompanySummary } from "./components/CompanySummary";
 import { CompanyValues } from "./components/CompanyValues";
@@ -14,6 +15,7 @@ const App = () => {
       <CompanyValues />
       <Banner />
       <Footer />
+      <BackToTopButton />
     </div>
   );
 };
