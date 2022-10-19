@@ -2,11 +2,20 @@
   color: var(--green-light);
   text-decoration: none;
   font-weight: bold;
+  transition: filter .2s ease-in-out;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+
+  @media only screen and (min-width: 480px) {
+    font-size: 1.125rem;
+  }
 }
 
 .separator {
   display: block;
-  width: 50%;
+  width: 40%;
   margin: 1.25rem auto;
-  border-top: 3px solid var(--gray-light);
+  border-top: 2px solid var(--gray-light);
 }

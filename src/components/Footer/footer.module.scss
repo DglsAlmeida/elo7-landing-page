@@ -3,11 +3,10 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 15px 0;
-
+  padding: 1rem 0;
 
   a {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   h3 {
@@ -15,9 +14,29 @@
     color: var(--gray-darkest);
   }
 
-  span {
-    margin-top: 15px;
+  .footerSubtitle {
+    margin-top: 0.938rem;
     font-weight: bold;
     color: var(--gray-darkest);
+  }
+
+  @media only screen and (min-width: 480px){
+    align-items: center;
+    padding: 2rem;
+
+    a {
+      font-size: 1rem;
+    }
+
+    .positionContent {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .footerSubtitle {
+      margin: 0.938rem 0;
+    }
   }
 }
