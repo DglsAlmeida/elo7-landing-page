@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import constants from "../../constants";
 import { useResponsive } from "../../hooks/useResponsive";
 import { getOpenPositions } from "../../services/getOpenPositions";
 import { Link } from "../Link";
@@ -8,6 +9,7 @@ import { Location, OpenPositionData } from "./interfaces";
 export const Footer = () => {
   const [openPositions, setOpenPositions] = useState<OpenPositionData[]>([]);
   const { isMobile } = useResponsive();
+  const { FOOTER } = constants;
 
   const location = (localizacao: Location) => {
     if (!isMobile && localizacao.cidade) {
@@ -50,8 +52,8 @@ export const Footer = () => {
 
   return (
     <footer className={styles?.footerContainer}>
-      <h3>VAGAS ABERTAS</h3>
-      <span className={styles?.footerSubtitle}>DESENVOLVIMENTO</span>
+      <h3>{FOOTER.title}</h3>
+      <span className={styles?.footerSubtitle}>{FOOTER.subtitle}</span>
 
       {openPositions.map((position, positionIdx) => (
         <div key={positionIdx} className={styles.positionContent}>
