@@ -57,7 +57,7 @@ export const Footer = () => {
 
       {openPositions.map((position, positionIdx) => (
         <div key={positionIdx} className={styles.positionContent}>
-          <Link href={position.link} text={position.cargo} />
+          <Link href={position.link} target="_blank" text={position.cargo} />
           {location(position.localizacao)}
         </div>
       ))}

@@ -14,12 +14,12 @@
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| white | ![#FFFFFF] #FFFFFF |
-| White Smoke | ![#F5F5F5] #F5F5F5 |
-| Gray Light | ![#C8C8C8] #C8C8C8 |
-| Gray Darkest | ![#606060] #606060 |
-| Green Light | ![#008B8B] #008B8B |
-| Yellow Base | ![#ffcc00] #ffcc00 |
+| white | #FFFFFF |
+| White Smoke |  #F5F5F5 |
+| Gray Light | #C8C8C8 |
+| Gray Darkest | #606060 |
+| Green Light | #008B8B |
+| Yellow Base | #ffcc00 |
 
 ## Principais desafios :grimacing:
 
