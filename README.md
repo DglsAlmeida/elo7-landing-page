@@ -43,6 +43,6 @@ Para rodas os testes, rode o seguinte comando:
   # yarn
 ```
 
-## Deply na Vercel
+## Deploy na Vercel
 
 https://elo7-landing-page.vercel.app/
