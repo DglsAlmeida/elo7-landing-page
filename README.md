@@ -15,7 +15,7 @@
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| white | #FFFFFF |
+| White | #FFFFFF |
 | White Smoke |  #F5F5F5 |
 | Gray Light | #C8C8C8 |
 | Gray Darkest | #606060 |
@@ -43,6 +43,6 @@ Para rodas os testes, rode o seguinte comando:
   # yarn
 ```
 
-## Deploy na Vercel
+## Deploy na Vercel :boom:
 
 https://elo7-landing-page.vercel.app/
